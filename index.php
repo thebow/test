@@ -2,8 +2,10 @@
 
 echo "hello world";
 
-if (condition) {
+if (!$value) {
     # code...
+    echo "val"
 } else {
     # code...
+    echo "no val"
 }
